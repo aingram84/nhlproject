@@ -77,6 +77,10 @@ function playoffs(){
   var e8t = nhleast[E8];
   nhleast.splice(E8,1);
 
+  console.log("Western Teams DNQ: " + nhlwest);
+  console.log("")
+  console.log("Eastern Teams DNQ: " + nhleast);
+  
   console.log("Western Conference: First Round")
   console.log(w1t + " vs. " + w8t);
   console.log(w2t + " vs. " + w7t);
@@ -88,10 +92,6 @@ function playoffs(){
   console.log(e2t + " vs. " + e7t);
   console.log(e3t + " vs. " + e6t);
   console.log(e4t + " vs. " + e5t);
-  console.log("")
-  console.log("Western Teams DNQ: " + nhlwest);
-  console.log("")
-  console.log("Eastern Teams DNQ: " + nhleast);
 }
 
 playoffs()
